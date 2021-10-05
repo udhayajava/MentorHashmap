@@ -65,7 +65,9 @@ public class Main
         Scanner s = new Scanner (System.in);
         System.out.println("Enter a word");
         String str = s.nextLine();
+        str = str.replaceAll("\\s+","");
         fd.findDupCharOfGiven(str);
         fd.MaxDupCharOfGiven(str);
+
     }
 }
