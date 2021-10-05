@@ -61,13 +61,13 @@ public class Main
 
     public static void main(String[] args) {
 
-        Main fd = new Main();
+        Main operation = new Main();
         Scanner s = new Scanner (System.in);
-        System.out.println("Enter a word");
+        System.out.println("Enter a String");
         String str = s.nextLine();
         str = str.replaceAll("\\s+","");
-        fd.findDupCharOfGiven(str);
-        fd.MaxDupCharOfGiven(str);
+        operation.findDupCharOfGiven(str);
+        operation.MaxDupCharOfGiven(str);
 
     }
 }
